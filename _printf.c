@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
  *check_for_specifiers - checks if there is a valid format specifier
