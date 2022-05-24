@@ -44,8 +44,11 @@ int count_digit(int i);
 
 /* print_bases */
 int print_hex(va_list l, flags_t *f);
+
 int print_hex_big(va_list l, flags_t *f);
+
 int print_binary(va_list l, flags_t *f);
+
 int print_octal(va_list l, flags_t *f);
 
 /* converter */
@@ -62,6 +65,7 @@ int get_flag(char s, flags_t *f);
 
 /* print_alpha */
 int print_string(va_list l, flags_t *f);
+
 int print_char(va_list l, flags_t *f);
 
 /* write_funcs */
