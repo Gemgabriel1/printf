@@ -60,7 +60,7 @@ int get_flag(char s, flags_t *f)
 
 /**
  * get_print - selects the right printing function
- * depending on the conversion specifier passed to _printf
+ * based on the conversion specifier passed to the _printf function
  * @s: character that holds the conversion specifier
  * Description: the function loops through the structs array
  * func_arr[] to find a match between the specifier passed to _printf
