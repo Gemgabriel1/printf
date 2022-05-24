@@ -41,9 +41,9 @@ void print_number(int n)
 
 /**
  * count_digit - returns the number of digits in an integer
- * for _printf
- * @i: integer to evaluate
- * Return: number of digits
+ * for _printf.
+ * @i: integer to evaluate.
+ * Return: The number of digits.
  */
 int count_digit(int i)
 {
@@ -60,5 +60,6 @@ int count_digit(int i)
 		u /= 10;
 		d++;
 	}
+
 	return (d);
 }
