@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- * _printf - produces output according to a format string
+ * _printf - produces output according to a format string.
  * @format: format string containing the characters and specifiers
  * Description: this function calls the get_print() function that will
  * determine what printing function to call depending on the conversion
  * specifiers contained into fmt
- * Return: length of formatted output string
+ * Return: length of formatted output string.
  */
 int _printf(const char *format, ...)
 {
@@ -45,5 +45,6 @@ int _printf(const char *format, ...)
 	}
 	_putchar(-1);
 	va_end(arguments);
+
 	return (count);
 }
