@@ -9,10 +9,10 @@
 
 /**
  * struct flags - struct containing flags to "turn on"
- * when a flag specifier is passed to _printf()
- * @plus: flag for the '+' character
- * @space: flag for the ' ' character
- * @hash: flag for the '#' character
+ * when a flag specifier is passed to _printf().
+ * @plus: flag for the '+' character.
+ * @space: flag for the ' ' character.
+ * @hash: flag for the '#' character.
  */
 typedef struct flags
 {
@@ -35,8 +35,11 @@ typedef struct printHandler
 
 /* print_nums */
 int print_int(va_list l, flags_t *f);
+
 void print_number(int n);
+
 int print_unsigned(va_list l, flags_t *f);
+
 int count_digit(int i);
 
 /* print_bases */
