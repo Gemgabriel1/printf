@@ -61,12 +61,13 @@ int get_flag(char s, flags_t *f)
 /**
  * get_print - selects the right printing function
  * based on the conversion specifier passed to the _printf function
- * @s: character that holds the conversion specifier
+ * @s: character that holds the conversion specifier.
+ *
  * Description: the function loops through the structs array
  * func_arr[] to find a match between the specifier passed to _printf
  * and the first element of the struct, and then the approriate
- * printing function
- * Return: a pointer to the matching printing function
+ * printing function.
+ * Return: a pointer to the matching printing function.
  */
 int (*get_print(char s))(va_list, flags_t *)
 {
