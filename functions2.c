@@ -12,6 +12,7 @@ int print_char(va_list l, flags_t *f)
 {
 	(void)f;
 	_putchar(va_arg(l, int));
+
 	return (1);
 }
 
@@ -20,7 +21,8 @@ int print_char(va_list l, flags_t *f)
  * in lowercase
  * @l: va_list arguments from _printf
  * @f: pointer to the struct flags that determines
- * if a flag is passed to _printf
+ * if a flag is passed to _printf.
+ *
  * Description: the function calls convert() which in turns converts the input
  * number into the correct base and returns it as a string
  * Return: the number of char printed
