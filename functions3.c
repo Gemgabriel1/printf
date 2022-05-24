@@ -6,10 +6,10 @@
  * (0 < ASCII value < 32 or >= 127) are
  * printed this way: \x, followed by the ASCII code
  * value in hexadecimal (upper case - always 2 characters)
- * @l: va_list arguments from _printf
+ * @l: va_list arguments from _printf.
  * @f: pointer to the struct flags that determines
- * if a flag is passed to _printf
- * Return: number of char printed
+ * if a flag is passed to _printf.
+ * Return:The number of char printed
  */
 int print_bigS(va_list l, flags_t *f)
 {
@@ -35,6 +35,7 @@ int print_bigS(va_list l, flags_t *f)
 		else
 			count += _putchar(s[i]);
 	}
+
 	return (count);
 }
 
